@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Example</title>
+    <link rel="stylesheet" href="mainWindow.css">
+    <script src="mainWindow.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="navigation">
+            <ul>
+                <li><button id="homeButton">Home</button></li>
+                <li><button id="historyButton">Show History</button></li>
+                <li><button id="logOutButton">Logout</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- History Container -->
+    <div class="container" id="historyContainer" style="display: none;">
+        <table id="historyTable">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Water Content</th> <!-- bio impedance sensor -->
+                    <th>Temperature</th> <!-- temperature sensor -->
+                    <th>Force</th> <!-- capacitive sensor -->
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be dynamically inserted here -->
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+
+</html>

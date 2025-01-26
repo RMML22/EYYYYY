@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #A9F1DF, #FFBBBB);
+    min-height: 100vh;
+}
+
+.header {
+    background: linear-gradient(to bottom right, #A9F1DF, #FFBBBB);
+    padding: 10px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation ul li a,
+.navigation ul li button {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(to bottom right, #B79891, #94716B);
+    border-radius: 22px;
+}
+
+.container {
+    display: inline-block;
+    outline: none;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 550;
+    background: linear-gradient(to bottom right, #A9F1DF, #FFBBBB);
+    padding: 12px 45px;
+    border-radius: 22px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+    cursor: pointer;
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#historyTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+#historyTable th,
+#historyTable td {
+    border: 3px solid #000000;
+    padding: 5px;
+}
+
+#historyTable th {
+    background: linear-gradient(to bottom right, #B79891, #94716B);
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        font-size: 12px;
+        padding: 6px 20px;
+        width: 80%;
+        min-height: 750px;
+    }
+
+    #historyTable {
+        font-size: 12px;
+    }
+}
